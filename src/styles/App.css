@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	background-color: black;
+}
+
+.App {
+	height: 100vh;
+
+	text-align: center;
+	color: white;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px 10px 10px 10px;
+}
+
+.title {
+	margin: 0;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+}
+
+.subtitle {
+	/* margin-top: 10px; */
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	background-color: black;
+	font-size: 25px;
+	font-weight: 700;
+	color: white;
+}
+
+.left {
+	font-size: 15px;
+	font-weight: 700;
+	display: flex;
+	color: black;
+	border-radius: 10px;
+	padding: 10px 10px;
+	height: 100%;
+
+	margin-left: 0.5rem;
+}
+
+.logo {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.right {
+	font-size: 15px;
+	font-weight: 700;
+	display: flex;
+
+	border-radius: 10px;
+	padding: 10px 18px;
+	height: 99%;
+	margin-right: 0.5rem;
+}
+
+.content-container {
+	background-color: #a200d6;
+}
+
+.connect-switch {
+	margin-top: -50px;
+}
+
+.cta-button {
+	height: 45px;
+	border: 0;
+	width: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 10px 10px 10px 10px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 10px 3px rgba(48, 48, 48, 0.2);
+}
+
+.please-switch {
+	padding-top: 10rem;
+}
+
+.connect-wallet-container {
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	max-width: 550px;
+	margin-bottom: 2rem;
+}
+
+.connect-wallet-container img {
+	background-color: #550072;
+	padding-bottom: 20px;
+}
+
+.connect-wallet-button {
+	background-image: linear-gradient(
+		to right,
+		#d242ff 0%,
+		#8a42ff 0%,
+		#6542ff 21%,
+		#4265ff 52%,
+		#208ff6 78%,
+		#20d4f6 100%,
+		#208ff6 78%,
+		#4265ff 52%,
+		#6542ff 21%,
+		#8a42ff 0%,
+		#d242ff 0%
+	);
+	background-size: 200% 200%;
+	animation: gradient-animation 4s ease infinite;
+	box-shadow: 0px 0px 10px 3px rgba(48, 48, 48, 0.2);
+}
+
+.mint-button {
+	background-image: linear-gradient(
+		to left,
+		#d242ff 0%,
+		#8a42ff 0%,
+		#6542ff 21%,
+		#4265ff 52%,
+		#208ff6 78%,
+		#20d4f6 100%,
+		#208ff6 78%,
+		#4265ff 52%,
+		#6542ff 21%,
+		#8a42ff 0%,
+		#d242ff 0%
+	);
+	font-size: 18px;
+	background-size: 200% 200%;
+	animation: gradient-animation 6s ease infinite;
+	margin: 20px 10px;
+	border-radius: 10px;
+	padding: 0px 2rem;
+	box-shadow: 0px 0px 10px 3px rgba(48, 48, 48, 0.2);
+}
+
+.mint-button:disabled {
+	background: #550072;
+	color: rgb(209, 209, 209);
+	cursor: not-allowed;
+}
+
+.mint-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.edit-button {
+	border-radius: 50%;
+	cursor: pointer;
+	margin-left: 3px;
+	top: 20px;
+	border: 0px;
+	font-size: 12px;
+	background-color: transparent;
+}
+
+.edit-icon {
+	width: 12px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.twitter-logo {
+	width: 35px;
+	height: 35px;
+}
+
+.footer-text {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.form-container {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	border: 0;
+	border-radius: 12px;
+	background-color: black;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 26px;
+	width: 400px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+input::placeholder {
+	color: gray;
+	letter-spacing: 2px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.first-row {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10rem;
+	margin-bottom: 10px;
+}
+
+.tld {
+	position: absolute;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	/* left: -70px; */
+	right: 22px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 13px;
+}
+
+.mint-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.mint-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin: 10px 10px;
+	font-size: 18px;
+	background-color: #3a86ff;
+	color: rgb(255, 255, 255);
+	min-width: 200px;
+	max-width: fit-content;
+	font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif sans-serif;
+	box-shadow: 0px 0px 10px 3px rgba(48, 48, 48, 0.2);
+}
+
+.mint-item:nth-child(2n) {
+	background-color: #ffbe0b;
+}
+
+.mint-item:nth-child(3n) {
+	background-color: #fb5607;
+}
+
+.mint-item:nth-child(5n) {
+	background-color: #ff006e;
+}
+
+.mint-item:nth-child(7n) {
+	background-color: #8338ec;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto", sans-serif;
+
+	justify-content: center;
+	text-align: center;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.underlined:hover {
+	cursor: pointer;
+}
+
+@-webkit-keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-moz-keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.gif-toro-img {
+	box-shadow: 0px 0px 10px 3px rgba(48, 48, 48, 0.2);
+	margin-top: 150px;
+	width: 480px;
+	height: 259px;
+	border: 0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+	background: url(https://media.giphy.com/media/eHQ5BsgBIBIGI/giphy.gif);
+}
+
+.domains-minted-so-far {
+	background-image: linear-gradient(
+		to left,
+		#d242ff 0%,
+		#8a42ff 0%,
+		#6542ff 21%,
+		#4265ff 52%,
+		#208ff6 78%,
+		#20d4f6 100%,
+		#208ff6 78%,
+		#4265ff 52%,
+		#6542ff 21%,
+		#8a42ff 0%,
+		#d242ff 0%
+	);
+	background-size: 200% 200%;
+	animation: gradient-animation 6s ease infinite;
+
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+
+	line-height: 3rem;
+
+	font-size: 2rem;
+
+	margin-top: 90px;
+	margin-bottom: -120px;
+
+	background-color: black;
+	color: white;
+	font-family: "Raleway", sans-serif;
+
+	justify-content: center;
+	text-align: center;
+}
+
+.domains-total {
+	font-size: 4rem;
+}
+
+.dont-have-matic-title {
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	justify-content: center;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	color: white;
+	background-color: #000000;
+}
+
+.opensea-link {
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	justify-content: center;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	color: white;
+	background-color: #000000;
+}
+
+.mint-container {
+	margin-bottom: 10px;
+}
+
+.theme-gradient {
+	background: rgb(210, 66, 255);
+	background: -moz-linear-gradient(
+		90deg,
+		rgba(210, 66, 255, 1) 0%,
+		rgba(32, 212, 246, 1) 100%
+	);
+	background: -webkit-linear-gradient(
+		90deg,
+		rgba(210, 66, 255, 1) 0%,
+		rgba(32, 212, 246, 1) 100%
+	);
+	background: linear-gradient(
+		90deg,
+		rgba(210, 66, 255, 1) 0%,
+		rgba(32, 212, 246, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d242ff",endColorstr="#20d4f6",GradientType=1);
+}
+
+.header-title {
+	margin-top: 1rem;
+	color: rgb(0, 0, 0);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.stay-toro {
+	background-image: linear-gradient(
+		to left,
+		#d242ff 0%,
+		#8a42ff 0%,
+		#6542ff 21%,
+		#4265ff 52%,
+		#208ff6 78%,
+		#20d4f6 100%,
+		#208ff6 78%,
+		#4265ff 52%,
+		#6542ff 21%,
+		#8a42ff 0%,
+		#d242ff 0%
+	);
+	background-size: 200% 200%;
+	animation: gradient-animation 6s ease infinite;
+
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	margin-top: -1rem;
+
+	line-height: 3rem;
+
+	font-size: 2rem;
+
+	background-color: black;
+	color: white;
+	font-family: "Raleway", sans-serif;
+
+	justify-content: center;
+	text-align: center;
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
+
+.main {
+	background-color: rgb(255, 255, 255);
+}
+
+.header-text {
+	font-family: "Raleway", sans-serif;
+
+	justify-content: center;
+	text-align: center;
+}
+
+.theme-gradient {
+	background: rgb(210, 66, 255);
+	background: -moz-linear-gradient(
+		90deg,
+		rgba(210, 66, 255, 1) 0%,
+		rgba(32, 212, 246, 1) 100%
+	);
+	background: -webkit-linear-gradient(
+		90deg,
+		rgba(210, 66, 255, 1) 0%,
+		rgba(32, 212, 246, 1) 100%
+	);
+	background: linear-gradient(
+		90deg,
+		rgba(210, 66, 255, 1) 0%,
+		rgba(32, 212, 246, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d242ff",endColorstr="#20d4f6",GradientType=1);
+}
+
+.header-title {
+	margin-top: 1rem;
+	color: rgb(0, 0, 0);
+	font-size: 3rem;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.header-subtitle-text {
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	background: black;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.9rem;
+}
+
+.text-mask {
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.header-description {
+	margin-top: -0.8rem;
+	font-weight: 500;
+	color: rgb(121, 120, 120);
+	padding: 2rem 2rem 0rem 2rem;
+	margin-bottom: -4rem;
+}
