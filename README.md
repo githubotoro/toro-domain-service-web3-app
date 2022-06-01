@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://toro-domain-service.vercel.app/">
-    <img src="images/logo.png" alt="logo" height="50">
+    <img src="images/logo.png" alt="logo" width="20%">
     <h1>TORO DOMAIN SERVICE <br/>Your immortal .toro on Polygon!</h1>
   </a>
   
@@ -59,7 +59,7 @@
 
 <div align="center">
 <a href="https://opensea.io/collection/totorulla">
-    <img src="images/totorulla-title.png" alt="logo" height="100">
+    <img src="images/totorulla-title.png" alt="logo" width="90%">
 </a>
 </div>
 
@@ -184,7 +184,7 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 <div align="center">
   <a href="https://opensea.io/collection/totorulla">
-    <img src="images/totorulla-character-icon.png" alt="logo" width="250" height="250">
+    <img src="images/totorulla-character-icon.png" alt="logo" width="30%">
     <h1>Till then, #stayTORO 👋</h1>
   </a>
 </div>
